@@ -26,6 +26,7 @@ struct ContentView: View {
                 Text("IOS Developer")
                     .font(.title)
                 Text("Hi,My name is Gan Boon Jye 17 years old. I like to play games")
+                    .foregroundColor(Color("dark"))
                     .multilineTextAlignment(.center)
                     .padding()
                 Spacer()
