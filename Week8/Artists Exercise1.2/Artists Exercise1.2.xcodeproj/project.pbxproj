@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		68F3D1C02D2E1B8F00C03131 /* Artists Exercise1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artists Exercise1.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F3D1E32D2E215400C03131 /* Artists Exercise1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artists Exercise1.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		68F3D1C22D2E1B8F00C03131 /* Artists Exercise1.2 */ = {
+		68F3D1E52D2E215400C03131 /* Artists Exercise1.2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Artists Exercise1.2";
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68F3D1BD2D2E1B8F00C03131 /* Frameworks */ = {
+		68F3D1E02D2E215400C03131 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68F3D1B72D2E1B8F00C03131 = {
+		68F3D1DA2D2E215400C03131 = {
 			isa = PBXGroup;
 			children = (
-				68F3D1C22D2E1B8F00C03131 /* Artists Exercise1.2 */,
-				68F3D1C12D2E1B8F00C03131 /* Products */,
+				68F3D1E52D2E215400C03131 /* Artists Exercise1.2 */,
+				68F3D1E42D2E215400C03131 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		68F3D1C12D2E1B8F00C03131 /* Products */ = {
+		68F3D1E42D2E215400C03131 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68F3D1C02D2E1B8F00C03131 /* Artists Exercise1.2.app */,
+				68F3D1E32D2E215400C03131 /* Artists Exercise1.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68F3D1BF2D2E1B8F00C03131 /* Artists Exercise1.2 */ = {
+		68F3D1E22D2E215400C03131 /* Artists Exercise1.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68F3D1CE2D2E1B9100C03131 /* Build configuration list for PBXNativeTarget "Artists Exercise1.2" */;
+			buildConfigurationList = 68F3D1F12D2E215500C03131 /* Build configuration list for PBXNativeTarget "Artists Exercise1.2" */;
 			buildPhases = (
-				68F3D1BC2D2E1B8F00C03131 /* Sources */,
-				68F3D1BD2D2E1B8F00C03131 /* Frameworks */,
-				68F3D1BE2D2E1B8F00C03131 /* Resources */,
+				68F3D1DF2D2E215400C03131 /* Sources */,
+				68F3D1E02D2E215400C03131 /* Frameworks */,
+				68F3D1E12D2E215400C03131 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				68F3D1C22D2E1B8F00C03131 /* Artists Exercise1.2 */,
+				68F3D1E52D2E215400C03131 /* Artists Exercise1.2 */,
 			);
 			name = "Artists Exercise1.2";
 			packageProductDependencies = (
 			);
 			productName = "Artists Exercise1.2";
-			productReference = 68F3D1C02D2E1B8F00C03131 /* Artists Exercise1.2.app */;
+			productReference = 68F3D1E32D2E215400C03131 /* Artists Exercise1.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		68F3D1B82D2E1B8F00C03131 /* Project object */ = {
+		68F3D1DB2D2E215400C03131 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					68F3D1BF2D2E1B8F00C03131 = {
+					68F3D1E22D2E215400C03131 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 68F3D1BB2D2E1B8F00C03131 /* Build configuration list for PBXProject "Artists Exercise1.2" */;
+			buildConfigurationList = 68F3D1DE2D2E215400C03131 /* Build configuration list for PBXProject "Artists Exercise1.2" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 68F3D1B72D2E1B8F00C03131;
+			mainGroup = 68F3D1DA2D2E215400C03131;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 68F3D1C12D2E1B8F00C03131 /* Products */;
+			productRefGroup = 68F3D1E42D2E215400C03131 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68F3D1BF2D2E1B8F00C03131 /* Artists Exercise1.2 */,
+				68F3D1E22D2E215400C03131 /* Artists Exercise1.2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		68F3D1BE2D2E1B8F00C03131 /* Resources */ = {
+		68F3D1E12D2E215400C03131 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68F3D1BC2D2E1B8F00C03131 /* Sources */ = {
+		68F3D1DF2D2E215400C03131 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		68F3D1CC2D2E1B9100C03131 /* Debug */ = {
+		68F3D1EF2D2E215500C03131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		68F3D1CD2D2E1B9100C03131 /* Release */ = {
+		68F3D1F02D2E215500C03131 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		68F3D1CF2D2E1B9100C03131 /* Debug */ = {
+		68F3D1F22D2E215500C03131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -272,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		68F3D1D02D2E1B9100C03131 /* Release */ = {
+		68F3D1F32D2E215500C03131 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68F3D1BB2D2E1B8F00C03131 /* Build configuration list for PBXProject "Artists Exercise1.2" */ = {
+		68F3D1DE2D2E215400C03131 /* Build configuration list for PBXProject "Artists Exercise1.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68F3D1CC2D2E1B9100C03131 /* Debug */,
-				68F3D1CD2D2E1B9100C03131 /* Release */,
+				68F3D1EF2D2E215500C03131 /* Debug */,
+				68F3D1F02D2E215500C03131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68F3D1CE2D2E1B9100C03131 /* Build configuration list for PBXNativeTarget "Artists Exercise1.2" */ = {
+		68F3D1F12D2E215500C03131 /* Build configuration list for PBXNativeTarget "Artists Exercise1.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68F3D1CF2D2E1B9100C03131 /* Debug */,
-				68F3D1D02D2E1B9100C03131 /* Release */,
+				68F3D1F22D2E215500C03131 /* Debug */,
+				68F3D1F32D2E215500C03131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 68F3D1B82D2E1B8F00C03131 /* Project object */;
+	rootObject = 68F3D1DB2D2E215400C03131 /* Project object */;
 }
