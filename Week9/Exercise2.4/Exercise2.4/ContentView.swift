@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isRed = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+            HStack{
+                Toggle("",isOn: $isRed)
+                    .frame(width: 0)
+            }
+            if isRed == true{
+                
+            }
+            else{
+                
+            }
         }
-        .padding()
     }
 }
 
