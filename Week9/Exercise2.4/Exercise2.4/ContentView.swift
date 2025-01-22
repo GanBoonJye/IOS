@@ -16,7 +16,7 @@ struct ContentView: View {
                     .frame(width: 0)
             }
             if isRed == true{
-                
+                Color.red
             }
             else{
                 
