@@ -5,10 +5,13 @@ struct MenuItemView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
+            Image(item.image)
+                .resizable()
+                .scaledToFit()
             Text(item.name)
                 .font(.headline)
             
-            Text("$\(item.price, specifier: "%.2f")")
+            Text("RM\(item.price, specifier: "%.2f")")
                 .font(.subheadline)
             
             Button(action: {
@@ -27,6 +30,6 @@ struct MenuItemView: View {
 }
 
 #Preview {
-    let newItem = MenuItem(name: "Pizza", type: "Food", price: 12.50, isAddedToOrder: false)
+    let newItem = MenuItem(name: "Pizza", type: "Food", price: 12.50, isAddedToOrder: false, image:"Aloha Chicken")
     MenuItemView(item: newItem)
 }

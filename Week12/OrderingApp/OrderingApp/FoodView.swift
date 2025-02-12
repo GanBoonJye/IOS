@@ -10,7 +10,7 @@ import SwiftData
 
 struct FoodView: View {
     @Query(filter: #Predicate<MenuItem> { item in
-        item.type == "Drink"
+        item.type == "Food"
     }, sort: \MenuItem.name) var foodItems: [MenuItem]
     
     @Environment(\.modelContext) private var modelContext
@@ -29,20 +29,23 @@ struct FoodView: View {
     }
 
     private func preloadMenuItems() {
-        let sampleDrinks: [(name: String, price: Double)] = [
-            ("AlohaChickenLARGE",47.90),
-            ("BeefPepperoniLARGE",47.90),
-            ("ChickenPepperoniLARGE",47.90),
-            ("DeluxeCheeseLARGE",47.90),
-            ("VeggieLoverLARGE",47.90),
-            ("HawaiianChickenLARGE",47.90),
-            ("IslandTunaLARGE",47.90),
-            ("SalamiOlioSpaghetti",17.50),
-            ("CreamyTomYumTunaSpaghetti",17.50)
+        let sampleFoods: [(image: String,name: String, price: Double)] = [
+            ("Aloha Chicken","Aloha Chicken LARGE",47.90),
+            ("Triple Chicken","Triple Chicken LARGE",52.30),
+            ("Beef Pepperoni","Beef Pepperoni LARGE",47.90),
+            ("Chicken Delight","Chicken Delight LARGE",47.90),
+            ("Chicken Sensation","Chicken Sensation LARGE",47.90),
+            ("Chicken Pepperoni","Chicken Pepperoni LARGE",47.90),
+            ("Deluxe Cheese","Deluxe Cheese LARGE",47.90),
+            ("Hawaiian Chicken","Hawaiian Chicken LARGE",47.90),
+            ("Island Tuna","Island Tuna",47.90),
+            ("Veggie Lover","Veggie Lover LARGA",47.90)
+            
+            
         ]
 
-        for drink in sampleDrinks {
-            let newItem = MenuItem(name: drink.name, type: "Drink", price: drink.price)
+        for food in sampleFoods {
+            let newItem = MenuItem(name: food.name, type: "Food", price: food.price,image: food.image)
             modelContext.insert(newItem)
         }
         

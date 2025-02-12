@@ -22,18 +22,22 @@ struct DrinkView: View {
     }
 
     private func preloadMenuItems() {
-        let sampleDrinks: [(name: String, price: Double)] = [
-            ("Cola", 2.5),
-            ("Sprite", 2.0),
-            ("Orange Juice", 3.0),
-            ("Iced Tea", 2.2),
-            ("Lemonade", 2.8),
-            ("Coffee", 3.5),
-            ("Tea", 2.0)
-        ]
+        let sampleDrinks: [(image: String,name: String, price: Double)] = [
+            ("Cola","Cola", 4.0),
+            ("Sprite","Sprite",3.0),
+            ("100 plus","100 plus",3.0),
+            ("Vida","Vida",5.0),
+            ("Lemon Tea","Lemon Tea",4.0),
+            ("Pepsi","Pepsi",3.5),
+            ("Soya","Soya",3.5),
+            ("Milk","Milk",5.0),
+            ("Red Bull","Red Bull",10),
+            ("HoneyB","Honey B", 3.5)
+            
+            ]
 
         for drink in sampleDrinks {
-            let newItem = MenuItem(name: drink.name, type: "Drink", price: drink.price)
+            let newItem = MenuItem(name: drink.name, type: "Drink", price: drink.price,image: drink.image)
             modelContext.insert(newItem)
         }
         
